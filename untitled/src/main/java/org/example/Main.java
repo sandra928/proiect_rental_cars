@@ -42,6 +42,7 @@ public class Main {
         props.putIfAbsent("Db_Url", "jdbc:sqlite:rental.db");
 
 
+
         IdGenerator carIdGenerator = new IdGenerator("car_id_gen.properties");
         IdGenerator rentalIdGenerator = new IdGenerator("rental_id_gen.properties");
 
